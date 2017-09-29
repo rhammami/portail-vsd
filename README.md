@@ -27,8 +27,26 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-##how this project was configured
+## Init project
 
-step1: ng new portail-vsd --style scss
+ng new portail-vsd --style scss
 
+git init
+
+## Install Angular Material Module
+
+npm install --save @angular/material @angular/animations @angular/cdk
+
+## Add Material Design Icons Module
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+## Install ngx-translate Module
+
+npm install @ngx-translate/core --save
+npm install @ngx-translate/http-loader
+
+## Install Flex Layout Module
+
+npm install @angular/flex-layout --save
 
